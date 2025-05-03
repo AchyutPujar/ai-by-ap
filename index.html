@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hi there 👋 I'm Achyut</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Achyut Pujar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Achyut Pujar">Achyut Pujar</h1>
+
+          <p class="title">Software Development Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:achyutpujar14@gmail.com" class="contact-link">achyutpujar14@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bengaluru, Karnataka, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/infalliable_/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/achyut-pujar-14sept1999/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/AchyutPujar" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://leetcode.com/u/achyutpujar14/" class="social-link">
+              <svg class="leetcode-icon" viewBox="0 0 24 24" fill="rgb(159,159,159)" xmlns="http://www.w3.org/2000/svg" aria-label="LeetCode">
+                <path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.055 5.055 0 0 0-2.445-1.337l2.467-2.503c.516-.514.498-1.366-.037-1.901-.535-.535-1.387-.552-1.902-.038l-10.1 10.101c-.981.982-1.494 2.337-1.494 3.835 0 1.498.513 2.895 1.494 3.875l4.347 4.361c.981.979 2.337 1.452 3.834 1.452s2.853-.512 3.835-1.494l2.609-2.637c.514-.514.496-1.365-.039-1.9s-1.386-.553-1.899-.039zM20.811 13.01H10.666c-.702 0-1.27.604-1.27 1.346s.568 1.346 1.27 1.346h10.145c.701 0 1.27-.604 1.27-1.346s-.569-1.346-1.27-1.346z"/>
+              </svg>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A results-driven engineer with 3+ years of expertise in building intelligent systems for industrial automation, 
+            pharmaceutical quality inspection, and R&D innovation. I specialize in computer vision and deep learning, 
+            leveraging robust tech stacks to solve complex manufacturing challenges, delivering scalable solutions that 
+            optimize efficiency, accuracy, and compliance.
+          </p>
+        </section>
+
+        <header>
+          <h2 class="h2 article-title">Technical Expertise</h2>
+        </header>
+
+        <section class="service">
+          <h3 class="h3 service-title">Languages</h3>
+          <div class="tech-items">
+            <span class="tech-item">C++</span>
+            <span class="tech-item">Python</span>
+            <span class="tech-item">C#</span>
+            <span class="tech-item">Java</span>
+          </div>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Frameworks & Libraries</h3>
+          <div class="tech-items">
+              <span class="tech-item">OpenCV</span>
+              <span class="tech-item">PyTorch</span>
+              <span class="tech-item">ONNX Runtime</span>
+              <span class="tech-item">NumPy</span>
+              <span class="tech-item">Spring Boot</span>
+              <span class="tech-item">WPF (MVVM)</span>
+          </div>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Computer Vision</h3>
+          <div class="tech-items">
+            <span class="tech-item">Image processing</span>
+            <span class="tech-item">Quality assessment</span>
+            <span class="tech-item">Real-time inspection systems</span>
+          </div>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Backend & APIs</h3>
+          <div class="tech-items">
+            <span class="tech-item">RESTful services</span>
+            <span class="tech-item">DuplexTcpIp</span>
+            <span class="tech-item">WebView2</span>
+          </div>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Testing & DevOps</h3>
+          <div class="tech-items">
+            <span class="tech-item">GTest/GMock</span>
+            <span class="tech-item">CI/CD pipelines</span>
+            <span class="tech-item">Docker</span>
+            <span class="tech-item">SonarQube</span>
+          </div>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Data & Databases</h3>
+          <div class="tech-items">
+            <span class="tech-item">SQLite</span>
+            <span class="tech-item">MySQL</span>
+          </div>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Tools</h3>
+          <div class="tech-items">
+            <span class="tech-item">Git</span>
+            <span class="tech-item">JIRA</span>
+            <span class="tech-item">CMake</span>
+            <span class="tech-item">Visual Studio</span>
+            <span class="tech-item">Confluence</span>
+          </div>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-vision.svg
+                " alt="vision icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Vision Engineer</h4>
+
+                <p class="service-item-text">
+                  Designing AI-powered inspection systems that process 380+ bottles/minute for industrial quality control.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning Developer</h4>
+
+                <p class="service-item-text">
+                  Building and optimizing PyTorch/ONNX models for image analysis and defect detection in manufacturing.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Industrial Automation Specialist</h4>
+
+                <p class="service-item-text">
+                  Creating WPF (C#/C++) applications with MVVM architecture to control vision machines and production lines.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Architect (CV/AI)</h4>
+
+                <p class="service-item-text">
+                  Leading end-to-end development of high-speed vision systems from algorithms to deployment with CI/CD pipelines.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">KLE Technological University</h4>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                Bachelor of Engineering - Electronics and Communications 
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Vidyaniketan Pre-University Science College</h4>
+
+              <span>2016 — 2018</span>
+
+              <p class="timeline-text">
+                Pre-University Education
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Developer</h4>
+              <span>Nov 2022 — Present</span>
+              <p class="timeline-text">
+                Spookfish Innovation Pvt Ltd
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Research Intern</h4>
+              <span>Jan 2022 — Jun 2022</span>
+              <p class="timeline-text">
+                Centre of Excellence in Visual Intelligence (CEVI) Lab, KLE Technological University
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Project Intern</h4>
+              <span>Nov 2020 — Jun 2021</span>
+              <p class="timeline-text">
+                Samsung R&D Institute India
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Computer Vision & AI Solutions</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Desktop & Enterprise Applications</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Mobile & Cross-Platform Development</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">DevOps & Testing</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Research & Prototyping</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.6600758814!2d77.35073521953125!3d12.954517008343278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf15df55dbea47473!2sBengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form target="_blank" action="https://formsubmit.co/achyutpujar14@gmail.com" method="POST" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
